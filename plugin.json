@@ -1,0 +1,29 @@
+{
+    "name"                  :"FacebookPixel",
+    "description"           :"Facebook-Pixel über Layout-Container einbinden",
+    "namespace"             :"FacebookPixel",
+    "version"               :"1.0",
+    "author"                :"www.netzeinflechter.de",
+    "license"               : "AGPL-3.0",
+    "price"                 : 0.00,
+    "description"           : "Provides Facebook Pixel tracking for plentymarkets webshops",
+    "shortDescription"      : {"de": "Facebook Pixel Tracking für plentymarkets Webshops","en": "Provides Facebook Pixel tracking for plentymarkets webshops"},
+    "categories"            : ["3527"],
+    "authorIcon"            : "",
+    "pluginIcon"            : "",
+    "email"                 : "kontakt@netzeinflechter.de",
+    "phone"                 : "+49 2163 349001",
+    "keywords"              : ["plentymarkets", "plugins", "layout", "template", "facebook", "pixel", "analytics", "tracking"],
+    "require"               : ["IO", "Ceres"],
+    "type"                  :"template",
+    "require"               : [],
+    "serviceProvider"       : "FacebookPixel\\Providers\\FacebookPixelServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"FacebookPixel\\Containers\\FacebookPixelContainer",
+            "name"          :"Facebook-Pixel Code",
+            "description"   :""
+        }
+    ]
+}

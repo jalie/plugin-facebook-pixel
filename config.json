@@ -1,0 +1,8 @@
+[
+  {
+      "tab"       : "Settings",
+      "key"       : "facebook.pixelID",
+      "label"     : "Facebook-Pixel ID",
+      "type"      : "text"
+  }
+]
